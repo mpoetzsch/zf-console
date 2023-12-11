@@ -29,7 +29,7 @@ class RouteCollection implements Countable, IteratorAggregate, RouteMatcherInter
      *
      * @return int
      */
-    public function count()
+    public function count(): int
     {
         return count($this->routes);
     }
